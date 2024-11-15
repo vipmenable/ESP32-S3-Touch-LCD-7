@@ -3,7 +3,7 @@ sensor:
   # Header Outdoor Temperate
   - platform: homeassistant
     entity_id: sensor.cabinet_temperature
-    id: office_temperature
+    id: cabinet_temperature
     on_value:
       - lvgl.label.update:
           id: temperatures
@@ -111,8 +111,8 @@ binary_sensor:
 
   # Office Aircon
   - platform: homeassistant
-    id: office_air_conditioner
-    entity_id: switch.office_air_conditioner
+    id: climate.cabinet_ac
+    entity_id: switch.climate.cabinet_ac
     publish_initial_state: true
     on_state:
       then:
