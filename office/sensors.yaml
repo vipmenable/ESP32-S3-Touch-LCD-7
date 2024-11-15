@@ -13,7 +13,7 @@ sensor:
 
   - platform: homeassistant
     entity_id: sensor.outside_temperature
-    id: outdoor_temperature
+    id: outside_temperature
     on_value:
       - lvgl.label.update:
           id: temperatures
