@@ -112,7 +112,7 @@ binary_sensor:
   # Office Aircon
   - platform: homeassistant
     id: climate.cabinet_ac
-    entity_id: switch.climate.cabinet_ac
+    entity_id: climate.cabinet_ac
     publish_initial_state: true
     on_state:
       then:
