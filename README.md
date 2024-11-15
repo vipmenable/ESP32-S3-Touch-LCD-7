@@ -15,7 +15,7 @@ wifi:
 # Packages
 packages:
   setup:
-    url: https://github.com/jtenniswood/esphome-lvgl/
+    url: https://github.com/vipmenable/ESP32-S3-Touch-LCD-7/
     files: [device/esp32-s3-touch-lcd-7.yaml,
             addon/time.yaml,
             addon/backlight.yaml,
