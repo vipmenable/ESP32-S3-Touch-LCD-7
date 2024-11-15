@@ -4,9 +4,9 @@ time:
     id: sntp_time
     timezone: Europe/Kyiv
     servers:
-     - 0.pool.ntp.org
-     - 1.pool.ntp.org
-     - 2.pool.ntp.org
+     - 0.ua.pool.ntp.org
+     - 1.ua.pool.ntp.org
+     - 2.ua.pool.ntp.org
     on_time_sync:
       - script.execute: time_update
     on_time:
