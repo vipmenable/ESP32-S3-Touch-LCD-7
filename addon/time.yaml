@@ -2,7 +2,7 @@
 time:
   - platform: sntp
     id: sntp_time
-    timezone: Europe/kyiv
+    timezone: Europe/Kyiv
     servers:
      - 0.pool.ntp.org
      - 1.pool.ntp.org
