@@ -111,7 +111,9 @@ binary_sensor:
 
   # Office Aircon
   - platform: homeassistant
-    id: climate.cabinet_ac
+    id: office_air_conditioner
+    entity_id: switch.office_air_conditioner
+    #id: climate.cabinet_ac
     #entity_id: climate.cabinet_ac
     publish_initial_state: true
     on_state:
