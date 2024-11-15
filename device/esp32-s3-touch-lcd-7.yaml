@@ -28,16 +28,16 @@ esphome:
     board_build.flash_size: 8MB #Added
           
 # Over the Air Updates
-ota:
-  platform: esphome
+#ota:
+#  platform: esphome
 
 # Enable Home Assistant API
-api:
+#api:
 
 # Enable logging
-logger:
-  level: DEBUG
-  hardware_uart: UART0
+#logger:
+#  level: DEBUG
+# hardware_uart: UART0
 
 # Video memory
 psram:
