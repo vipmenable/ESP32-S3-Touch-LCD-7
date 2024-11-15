@@ -2,7 +2,7 @@ sensor:
 
   # Header Outdoor Temperate
   - platform: homeassistant
-    entity_id: sensor.office_temperature
+    entity_id: sensor.cabinet_temperature
     id: office_temperature
     on_value:
       - lvgl.label.update:
@@ -12,7 +12,7 @@ sensor:
             args: [ '(int)round(id(outdoor_temperature).state)', '(int)round(x)' ]
 
   - platform: homeassistant
-    entity_id: sensor.outdoor_temperature
+    entity_id: sensor.outside_temperature
     id: outdoor_temperature
     on_value:
       - lvgl.label.update:
