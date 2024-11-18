@@ -104,7 +104,7 @@ lvgl:
                   data:
                     entity_id: scene.office_evening
 
-        # Office Storage Light
+        # East Spot Light
         - button: 
             height: $button_height_single
             checkable: true
@@ -124,7 +124,7 @@ lvgl:
               - homeassistant.service:
                   service: light.toggle
                   data:
-                    entity_id: light.office_storage
+                    entity_id: light.south_outside_l1
 
         # 3d Printer
         - button: 
