@@ -119,7 +119,7 @@ lvgl:
               - label:
                   align: bottom_left
                   id: office_storage_light_label
-                  text: "Storage"
+                  text: "Південь"
             on_click:
               - homeassistant.service:
                   service: light.toggle
