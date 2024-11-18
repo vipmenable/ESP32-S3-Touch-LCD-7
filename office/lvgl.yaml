@@ -104,7 +104,7 @@ lvgl:
                   data:
                     entity_id: scene.office_evening
 
-        # East Spot Light
+        # South Spot Light
         - button: 
             height: $button_height_single
             checkable: true
