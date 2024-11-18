@@ -115,11 +115,11 @@ lvgl:
                   text_font: $icon_font
                   align: top_left
                   id: office_storage_light_icon
-                  text: $printer
+                  text: $lights
               - label:
                   align: bottom_left
                   id: office_storage_light_label
-                  text: "Південь"
+                  text: "East Spot"
             on_click:
               - homeassistant.service:
                   service: light.toggle
