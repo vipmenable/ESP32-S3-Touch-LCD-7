@@ -61,7 +61,7 @@ binary_sensor:
           state:
             checked: !lambda return x;
 
-  # Office Storage Light
+  # South Spot Light
   - platform: homeassistant
     id: office_storage
     entity_id: light.south_outside_l1
