@@ -64,7 +64,7 @@ binary_sensor:
   # Office Storage Light
   - platform: homeassistant
     id: office_storage
-    entity_id: light.office_storage
+    entity_id: light.south_outside_l1
     publish_initial_state: true
     on_state:
       then:
